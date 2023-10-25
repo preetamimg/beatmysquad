@@ -1,0 +1,175 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}
+
+
+
+ // X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+.howtoplay .upper-box{
+    margin-top: 20px;
+}
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+  body {
+      padding-top: 95px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .header{
+    background:$white;
+    padding:10px 0;
+  }
+  .navbar-collapse{
+    background:white;
+    backdrop-filter: blur(2px);
+  }
+  .header .comman_button {
+   display:none;
+
+  }
+  .hero{
+   height:auto;
+    padding:60px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: unset !important;
+& .hero_1 h1 {
+  line-height: 48px;
+}
+& .mobile_img{
+  margin:0 auto;
+}
+
+ & .comman_button{
+  padding:5px 10px;
+}
+  }
+  .about{
+    & .icon-box {
+      position: relative;
+      margin-top: 40px;
+      padding:30px;
+      box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.06);
+    &:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      height: 2px;
+      width: 50px;
+      transition: all 0.5s ease-in-out;
+      background-image: linear-gradient(
+        to right bottom,
+        #ff0113,
+        #c10028,
+        #810829,
+        #42101d,
+        #000000
+      );
+    }
+
+    &:after {
+        position: absolute;
+        content: "";
+        right:0;
+        bottom: 0;
+        height: 2px;
+        width: 50px;
+        transition: all 0.5s ease-in-out;
+        background-image: linear-gradient(
+          to right bottom,
+          #ff0113,
+          #c10028,
+          #810829,
+          #42101d,
+          #000000
+        );
+      } 
+      & .circle_box{
+          border-radius: 4px;
+          background-color:$main-color;
+          color: $white;
+          & i {
+            color: $white;
+            margin-right: 0;
+      }
+  }
+}
+  }
+.howtoplay{
+  & .boxes {
+    margin-top: 0;
+  }
+& .icon-box .icon{
+  margin: 0 auto;
+}
+& .upper-box {
+  margin:0;
+  margin-top:20px;
+}
+}
+
+.faq .accordion-list a {
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 500;
+    outline: none;
+    color:$white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  } 
+
+body {
+  padding-top:70px;
+}
+}
+/// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .hero{
+    padding: 50px 10px;
+  }
+}
+
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

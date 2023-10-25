@@ -1,0 +1,63 @@
+/*---------------------------------------------------------------------
+                            HERO
+-----------------------------------------------------------------------*/
+.hero {
+  height:100vh;
+  display: none;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: unset !important;
+  &:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    background-image: linear-gradient(to right bottom, #E2E619, #cccf1e, #b3b541, #e395a1, #a31b2f) !important;
+  }
+  & .mobile_img {
+    max-width: 200px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    & .mobile_frame {
+      width: 100%;
+      filter: drop-shadow(1px 1px 1px black);
+      @keyframes up-down {
+        0% {
+          transform: translateY(10px);
+        }
+        100% {
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
+  & .hero_1 {
+    text-align: center;
+    & h1 {
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: $white;
+      text-transform: capitalize;
+      position: relative;
+    }
+    & p {
+      color: $white;
+      font-weight: 600;
+      text-transform: capitalize;
+      position: relative;
+      margin-bottom:20px;
+    }
+  }
+  & .comman_button {
+    position: relative;
+    @include btn;
+    &:hover {
+      color:$white;
+      border-radius:50px;
+    }
+  }
+}

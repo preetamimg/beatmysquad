@@ -1,0 +1,64 @@
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/*---------------------------------------------------------------------
+                            HEADER SECTION
+-----------------------------------------------------------------------*/
+.header {
+  // padding: 15px 0;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  background-color: $white;
+  top: 0;
+  & .navbar-toggler{
+    color:$main-color;
+    box-shadow:none;
+  }
+  & .navbar-nav {
+    padding-left:15px;
+    & .nav-item{
+    margin:10px 20px;
+    & .nav-link{
+          text-decoration: none;
+          color: darken(#FFB6C1,50) ;
+          font-weight: bold;
+          text-transform: uppercase;
+          position: relative;
+          font-size: 15px;
+          letter-spacing: 0.4px;
+          padding:0;
+          &:before {
+            background: #000;
+            bottom: -4px;
+            content: "";
+            height: 2px;
+            left: 0;
+            position: absolute;
+            width: 0;
+            transition: all 0.3s ease-out 0s;
+          }
+          &:hover::before {
+            width:100%;
+          }
+        }
+      }
+    }
+    & .comman_button {
+      @include btn;
+      &:hover {
+        color:white;
+        border-radius:50px;
+      }
+    }
+  }

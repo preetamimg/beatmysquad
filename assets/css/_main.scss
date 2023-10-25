@@ -1,0 +1,17 @@
+@mixin btn {
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border-radius: 60px 0px 30px 20px;
+  margin-left: 30px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform:uppercase;
+  background-image: linear-gradient(to right bottom, #E2E619, #cccf1e, #b3b541, #e395a1, #a31b2f) !important;
+}
+body{
+  padding-top:75px;  
+}

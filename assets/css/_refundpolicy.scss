@@ -1,0 +1,39 @@
+.refundpolicy{
+  padding: 40px 0;
+  & .heading-title {
+    text-align: center;
+    & .title {
+      position: relative;
+    }
+
+    & .divider {
+      height: 4px;
+      width: 85px;
+      background:$main-color;
+      margin: 20px auto;
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 5px;
+        background: #fff;
+        animation: move-ani 2s linear infinite;
+        @keyframes move-ani {
+          0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+          }
+          100% {
+            -webkit-transform: translateX(85px);
+            transform: translateX(85px);
+          }
+        }
+      }
+    }
+  }
+}
