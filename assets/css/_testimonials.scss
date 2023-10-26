@@ -11,7 +11,7 @@
     & .divider {
       height: 4px;
       width: 85px;
-      background:darken(#FFB6C1, 20);
+      background:#013A9D;
       margin: 20px auto;
       position: relative;
       border-radius: 5px;
@@ -51,7 +51,7 @@
     height: 2px;
     transition: 0.5s;
     width: 70px;
-   background-image: linear-gradient(to right bottom, #E2E619, #cccf1e, #b3b541, #e395a1, #a31b2f) !important;
+    background-image: linear-gradient(to right bottom, #013A9D, #013A9D, #013A9D, #007BE7, #007BE7) !important;
   }
   &:after {
       position: absolute;
@@ -61,7 +61,7 @@
       height: 2px;
       width: 70px;
       transition: all 0.5s ease-in-out;
-     background-image: linear-gradient(to right bottom, #E2E619, #cccf1e, #b3b541, #e395a1, #a31b2f) !important;
+      background-image: linear-gradient(to right bottom, #013A9D, #013A9D, #013A9D, #007BE7, #007BE7) !important;
     }
   
   & .client-img img {
@@ -90,7 +90,7 @@
     line-height: normal;
   }
   & h5{
-      color:darken(#FFB6C1,20);
+      color:#013A9D;
       font-size: 16px;
       text-transform: uppercase;
       margin-bottom: 3px;
@@ -123,11 +123,11 @@
   border-radius: 50px;
   transition: 0.5s;
   outline: none;
-  background-color: #F4511E !important;
+  background-color: #FE0000 !important;
 }
 & .owl-dot.active{
   width:40px;
- background-image: linear-gradient(to right bottom, #E2E619, #cccf1e, #b3b541, #e395a1, #a31b2f) !important;
+  background-image: linear-gradient(to right bottom, #013A9D, #013A9D, #013A9D, #007BE7, #007BE7) !important;
   }
 } 
 

@@ -13,6 +13,8 @@
               <li><i class="fad fa-hand-point-right"></i> <a href="<?php echo SCRIPT_ROOT ?>">Home</a></li>
               <li><i class="fad fa-hand-point-right"></i> <a href="<?php echo SCRIPT_ROOT ?>about">About us</a></li>
               <li><i class="fad fa-hand-point-right"></i> <a href="<?php echo SCRIPT_ROOT ?>howtoplay">How to play</a></li>
+
+
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">

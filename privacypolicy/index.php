@@ -223,7 +223,7 @@
                      &nbsp;<br>
                      Any questions or clarifications with respect to this Policy or any complaints, comments, concerns
                      or feedback can be sent via mail to <strong>Beat My Squad</strong> at:
-                     myplayeerofficial@gmail.com</span></span>
+                     pilotharshad321@gmail.com</span></span>
 								<br>&nbsp;</div>
 						</div>
 					</div>
