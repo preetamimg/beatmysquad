@@ -59,7 +59,7 @@
 
     <!-- custom styles (optional) -->
     <link rel="stylesheet" href="<?php echo SCRIPT_ROOT ?>assets/css/style.css" />
-
+    <!-- <script src="http://localhost/beatmysquad/assets/plugins/owlCarousel/assets/owlcarousel/owl.carousel.min.js"></script> -->
 </head>
 
 <body>

@@ -14,7 +14,7 @@
 			</div>
             <div class="col-md-6 mt-2 ">
 				<div class="mobile_img position-relative mx-auto">
-					<img class="mobile_frame" src="<?php echo SCRIPT_ROOT ?>assets/img/HEROMB.png" alt="mobile" class="img-fluid w-100 h-100">
+					<img class="mobile_frame" src="<?php echo SCRIPT_ROOT ?>assets/img/herom.png" alt="mobile" class="img-fluid w-100 h-100">
 				</div>
 			</div>
 		</div>
