@@ -7,5 +7,5 @@ if ($_SERVER["HTTP_HOST"] == "localhost") {
 } else if ($_SERVER['HTTP_HOST'] == '143.110.184.198') {
    define('SCRIPT_ROOT', 'http://143.110.184.198/jitendra/fantasy/');
 } else {
-   define('SCRIPT_ROOT', 'http://143.110.244.110/jitendra/fantasy/');
+   define('SCRIPT_ROOT', 'https://beatmysquad.com/');
 }

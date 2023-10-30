@@ -9,7 +9,7 @@
 				<div class="hero_1 text-md-start text-center">
 					<h1 class="fs-lg-76 fs-30">Champions are made not born</h1>
 					<p>Beat My Squad Management Platform For Cricket Operating To Engage Cricket Fans To Have More Fun Out Of The Game Of Cricket. This Indeed A Platform That Boosts The Passion Of Every Cricket Fans All Over The World.</p>
-					<a class="comman_button shadow ms-0 fs-16" href="javascript:;"><i class="fab fa-android me-2"></i>Play Store</a>
+					<a class="comman_button shadow ms-0 fs-16" href="https://beatmysquad.com/download/Beatmysquad.apk"><i class="fab fa-android me-2"></i>Play Store</a>
 				</div>
 			</div>
             <div class="col-md-6 mt-2 ">

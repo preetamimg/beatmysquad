@@ -17,7 +17,7 @@
           <a class="nav-link" href="<?php echo SCRIPT_ROOT ?>howtoplay">How to play</a>
 		</li>
       </ul>
-	  <a class="comman_button shadow" href="javascript:;"><i class="fab fa-android me-2"></i>Download App</a>
+	  <a class="comman_button shadow" href="https://beatmysquad.com/download/Beatmysquad.apk"><i class="fab fa-android me-2"></i>Download App</a>
     </div>
   </div>
 </nav>

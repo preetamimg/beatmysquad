@@ -30,11 +30,11 @@
           <div class="footer-menus">
               <h3 class="footer-heading text-black">Contact Us</h3>
               <p class="fs-16 text-black">Office Address <br>
-                16122 Collins Street West,<br>
-                Melbourne, VIC</p>
-              <a href="javascript:void(0)" class="d-block fs-16  fw-bold text-black "><strong>Phone : </strong>  7600522442</a>
+              Near Radhe Shyam Appartment Behind polytechnic college Porbandar,<br>
+              Gujarat 360575</p>
+              <a href="javascript:void(0)" class="d-block fs-16  fw-bold text-black "><strong>Phone : </strong>  +918401559228</a>
 
-              <a href="javascript:void(0)" class="d-block fs-16  fw-bold text-black "><strong>Email : </strong> pilotharshad321@gmail.com</a>
+              <a href="javascript:void(0)" class="d-block fs-16  fw-bold text-black "><strong>Email : </strong> support@beatmysquad.com</a>
           </div>
         </div>
 

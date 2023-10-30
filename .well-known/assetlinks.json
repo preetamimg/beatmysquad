@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.img.Beatmysquad",
+      "sha256_cert_fingerprints":
+      ["88:6C:7C:74:C7:66:AC:8A:B6:22:AB:37:AB:F5:2A:55:41:81:5D:32:3D:BE:46:C2:A1:43:B7:2C:7C:87:2A:12"]
+    },
+}]
