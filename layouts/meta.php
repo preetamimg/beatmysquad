@@ -1,7 +1,7 @@
 <!--  Title -->
 <title>BeatMySquad</title>
 <link rel="shortcut icon" href="assets/img/favicon-dark.png" type="image/x-icon">
-    <link rel="icon" type="image/png" href="<?php echo SCRIPT_ROOT ?>assets/img/logo.svg" sizes="192x192">
+    <link rel="icon" type="image/png" href="<?php echo SCRIPT_ROOT ?>assets/img/beatlogo.png" sizes="192x192">
 <!-- Required meta tags -->
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
