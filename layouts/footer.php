@@ -3,7 +3,7 @@
         <div class="row align-items-start">
             <div class="col-lg-3">
             <div class="about-site">
-              <a href="<?php echo SCRIPT_ROOT ?>"><img class="h-40px" src="<?php echo SCRIPT_ROOT ?>assets/img/logo.svg" alt=""> </a>
+              <a href="<?php echo SCRIPT_ROOT ?>"><img class="h-40px" src="<?php echo SCRIPT_ROOT ?>assets/img/beatlogo.png" alt=""> </a>
               <p class="fs-md-16 fs-14 text-black mt-3"> Beat My Squad Management Platform For Cricket Operating To Engage Cricket Fans To Have More Fun Out Of The Game Of Cricket.</p>
             </div>
             </div>
